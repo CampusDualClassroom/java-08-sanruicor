@@ -3,7 +3,7 @@ package com.campusdual.classroom;
 public class Exercise08 {
 
     public static void main(String[] args) {
-
+        whileLoop(15);
     }
 
     //TODO ↓
@@ -12,6 +12,10 @@ public class Exercise08 {
     // X+1 < Y. El próximo ciclo valdrá: X+2
     // etc.
     public static void whileLoop(int num) {
-
+        int X = 0;
+        while (X < num) {
+            System.out.println(X + " < " + num + ". El proximo ciclo valdra: " + (X + 1));
+            X++;
+        }
     }
 }
